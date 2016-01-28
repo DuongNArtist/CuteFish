@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cute Fish</string>
+    <string name="ref_code">12358</string>
+    <string name="provider_number">8075</string>
+    <string name="message_content">VMGTVI NUOICA NAP</string>
+    <string name="facebook_app_id">462518297243498</string>
+    <string name="button_yes">Có</string>
+    <string name="button_no">Không</string>
+    <string name="button_ok">Đồng ý</string>
+    <string name="max">(o_o)</string>
+    <string name="title_quit_game">Xác nhận thoát game?</string>
+    <string name="message_quit_game">Bạn có muốn thoát trò chơi không?</string>
+    <string name="title_get_coin">Xác nhận gửi tin nhắn?</string>
+    <string name="message_get_coin">Bạn có muốn mua thêm 10.000 xu với giá 10.000 vnđ không?</string>
+    <string name="message_successfull">Tin nhắn gửi thành công! Bạn đã nhân được 10.000 xu!</string>
+    <string name="message_unsuccessfull">Tin nhắn gửi không thành công! Bạn chưa nhân được 10.000 xu!</string>
+    <string name="title_congratulations">Xin chúc mừng!</string>
+    <string name="message_congratulations">Không thể tin nổi! Thật là tuyệt vời!</string>
+    <string name="title_game_over">Xin chia buồn?</string>
+    <string name="message_game_over">Không thể tin nổi! Bạn đã thua trong trận này!</string>
+    <string name="button_share">Chia sẻ</string>
+    <string name="button_next">Chơi tiếp</string>
+    <string name="button_quit">Thoát</string>
+    <string name="button_replay">Chơi lại</string>
+    <string name="button_play">Chơi tiếp</string>
+
+</resources>

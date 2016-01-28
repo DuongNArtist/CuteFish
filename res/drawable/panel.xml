@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="10dp" />
+
+    <padding
+        android:bottom="@dimen/dialog_margin"
+        android:left="@dimen/dialog_margin"
+        android:right="@dimen/dialog_margin"
+        android:top="@dimen/dialog_margin" />
+
+    <gradient
+        android:angle="-90"
+        android:endColor="#898C90"
+        android:startColor="#DBDDDE" />
+
+</shape>

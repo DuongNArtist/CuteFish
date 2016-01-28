@@ -1,0 +1,210 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fl_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/button_margin"
+        android:background="@drawable/text"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/money_text_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/bt_eggs"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/button_margin"
+                android:background="@drawable/button_yellow"
+                android:contentDescription="@drawable/egg0"
+                android:padding="@dimen/button_padding"
+                android:scaleType="centerInside"
+                android:src="@drawable/egg0" />
+
+            <TextView
+                android:id="@+id/tv_eggs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text"
+                android:text="@string/max"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/price_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/bt_gunz"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/button_margin"
+                android:background="@drawable/button_green"
+                android:contentDescription="@drawable/gun0"
+                android:padding="@dimen/button_padding"
+                android:scaleType="centerInside"
+                android:src="@drawable/gun0" />
+
+            <TextView
+                android:id="@+id/tv_gunz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text"
+                android:text="@string/max"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/price_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/bt_food"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/button_margin"
+                android:background="@drawable/button_aqua"
+                android:contentDescription="@drawable/food0"
+                android:padding="@dimen/button_padding"
+                android:scaleType="centerInside"
+                android:src="@drawable/food0" />
+
+            <TextView
+                android:id="@+id/tv_food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text"
+                android:text="@string/max"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/price_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/bt_fish"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/button_margin"
+                android:background="@drawable/button_blue"
+                android:contentDescription="@drawable/fish"
+                android:padding="@dimen/button_padding"
+                android:scaleType="centerInside"
+                android:src="@drawable/fish" />
+
+            <TextView
+                android:id="@+id/tv_fish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text"
+                android:text="@string/max"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/price_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_control"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_level"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@drawable/button_white"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/money_text_size" />
+
+        <ImageButton
+            android:id="@+id/bt_shop"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@drawable/button_yellow"
+            android:contentDescription="@drawable/shop"
+            android:padding="@dimen/button_padding"
+            android:scaleType="centerInside"
+            android:src="@drawable/shop" />
+
+        <ImageButton
+            android:id="@+id/bt_pause"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@drawable/button_orange"
+            android:contentDescription="@drawable/pause"
+            android:padding="@dimen/button_padding"
+            android:scaleType="centerInside"
+            android:src="@drawable/pause" />
+
+        <ImageButton
+            android:id="@+id/bt_quit"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@drawable/button_red"
+            android:contentDescription="@drawable/quit"
+            android:padding="@dimen/button_padding"
+            android:scaleType="centerInside"
+            android:src="@drawable/quit" />
+
+        <ImageButton
+            android:id="@+id/bt_music"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@drawable/button_pink"
+            android:contentDescription="@drawable/musicon"
+            android:padding="@dimen/button_padding"
+            android:scaleType="centerInside"
+            android:src="@drawable/musicoff" />
+
+        <ImageButton
+            android:id="@+id/bt_sound"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@drawable/button_violet"
+            android:contentDescription="@drawable/soundon"
+            android:padding="@dimen/button_padding"
+            android:scaleType="centerInside"
+            android:src="@drawable/soundoff" />
+    </LinearLayout>
+
+</FrameLayout>
